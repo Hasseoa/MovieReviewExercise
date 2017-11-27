@@ -1,0 +1,22 @@
+.mainCard{
+    display: flex;
+    flex-direction: right;
+    margin: 0 auto;
+    width: 60%;
+    background-color: burlywood;
+}
+
+#poster{
+    max-width: 300px;
+    max-height: 500px;
+    margin: 10px;  
+}
+
+.textSide{    
+    margin: 20px;
+    margin-right: 40px;
+}
+
+
+
+
