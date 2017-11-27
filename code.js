@@ -65,7 +65,6 @@ function changeStarRating(grade){
       });      
   }
 
-
 /*   for(let i = 1; i <= 5; i++){
       let star = document.getElementById("star"+i);
       star.addEventListener("click",function(){

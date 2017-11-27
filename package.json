@@ -1,0 +1,26 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "lessc styles.less styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hasseoa/MovieReviewExercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hasseoa/MovieReviewExercise/issues"
+  },
+  "homepage": "https://github.com/Hasseoa/MovieReviewExercise#readme",
+  "devDependencies": {
+    "less": "^2.7.3"
+  }
+
+}
+
+

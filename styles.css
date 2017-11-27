@@ -1,39 +1,29 @@
-.mainCard{
-    display: flex;
-    flex-direction: right;
-    margin: 0 auto;
-    width: 60%;
-    background-color: #61A7AA;
+.mainCard {
+  display: flex;
+  flex-direction: right;
+  margin: 0 auto;
+  width: 60%;
+  background-color: #61A7AA;
 }
-
-#poster{
-    max-width: 300px;
-    max-height: 500px;
-    margin: 10px;  
+#poster {
+  max-width: 300px;
+  max-height: 500px;
+  margin: 10px;
 }
-
-.textSide{    
-    margin: 20px;
-    margin-right: 40px;
+.textSide {
+  margin: 20px;
+  margin-right: 40px;
 }
-
-body{
-    background-color: #AA7E61;
+body {
+  background-color: #303030;
 }
-
-#stars > span {   
-        user-select: none;
-        cursor: pointer;            
+#stars > span {
+  user-select: none;
+  cursor: pointer;
 }
-
-.filledStar{
-    color: gold;
+.filledStar {
+  color: gold;
 }
-
-.emptyStar{
-    color: #AA7E61; ;
+.emptyStar {
+  color: #303030;
 }
-
-
-
-
