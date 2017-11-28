@@ -14,7 +14,7 @@ function renderMovie(movie){
         actorList += actor;
         actorList += ("</li>");                      
     }    
-    $("#actorList").html(actorList);
+    $('#actorList').html(actorList);
 }
 /* function renderMovie(movie){
     document.getElementById("poster").setAttribute("src",movie.imageSrc);
