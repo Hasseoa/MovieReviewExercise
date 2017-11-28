@@ -1,12 +1,13 @@
-@bgcolor: #303030;
+@bgcolor: #505050;
 @myBlue: #61A7AA;
+@gradientBlue: rgb(28, 49, 49);
 
 .mainCard{
     display: flex;
     flex-direction: right;
     margin: 0 auto;
     width: 60%;
-    background-color: @myBlue;
+    background: linear-gradient(@myBlue, @gradientBlue);    
 }
 
 #poster{
@@ -33,7 +34,7 @@ body{
 }
 
 #stars > span:hover { 
-    text-shadow: 1px 1px rgb(0, 0, 0);            
+    text-shadow: 1px 1px rgb(20,20, 20);            
 }
 
 .filledStar{
