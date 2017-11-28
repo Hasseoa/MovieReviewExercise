@@ -5,3 +5,5 @@ let movieData = {
     "hfjkdhszjkfs hsdjhfsdjkh hsjfhsdjk sdfhfjk fhsjkfh jsdfjkf jsdf nsjkdfhjk fnsdjf sdfjn sdfj ghgsdfh ghsdfjhf gsdfhgdf hsdhkf sdfh,",
     actors:["John Huston","Orson Bean","Brother Theodor"], 
 }
+
+module.exports = movieData;

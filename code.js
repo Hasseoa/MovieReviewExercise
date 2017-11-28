@@ -1,3 +1,5 @@
+var movieData = require("./data");
+var $ = require("jquery");
 //handle data and stuff
 
 function renderMovie(movie){
