@@ -1,0 +1,10 @@
+{
+    "parserOptions": { "ecmaVersion": 6 },
+    "extends": "eslint:recommended",
+    "rules": {        
+        "quotes": ["error", "double"],
+        "properties": "always",
+        "semi": 1,
+        "no-undef":"off"
+    }
+  }

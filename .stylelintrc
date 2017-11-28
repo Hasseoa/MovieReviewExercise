@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "max-empty-lines": 4,
+    "color-no-invalid-hex": true,
+    "comment-no-empty": true,
+    "no-extra-semicolons": true,    
+  }
+}

@@ -12,7 +12,7 @@ function renderMovie(movie){
         let actor = movie.actors[i];
         actorList += ("<li>");           
         actorList += actor;
-        actorList += ("</li>");               
+        actorList += ("</li>");                      
     }    
     $("#actorList").html(actorList);
 }
