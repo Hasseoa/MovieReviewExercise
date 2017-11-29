@@ -8,7 +8,8 @@
     "styles": "lessc styles.less distribution/styles.css",
     "bundle": "webpack",
     "copyindex": "cp template.html distribution/index.html",
-    "build": "npm run bundle && npm run styles && npm run copyindex",
+    "copyicon": "cp favicon.ico distribution/favicon.ico",
+    "build": "npm run bundle && npm run styles && npm run copyindex && npm run copyicon",
     "lintless": "stylelint styles.less",
     "lintts": "tslint -c tslint.json '*.ts'"
   },
