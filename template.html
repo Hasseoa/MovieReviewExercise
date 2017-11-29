@@ -12,26 +12,28 @@
 
     <div ng-controller="reviewController" class="mainCard">
 
-        <p>{{message}} {{greeting}}</p>               
+                    
 
         <div class="imageSide">
-            <img id="poster">
+            <img ng-src ={{movie.imageSrc}} id="poster">
         </div>
 
-        <div class="textSide">
-            <h2 id="title" ></h2>
+        <div class="textSide">            
+            <h2 id="title" >{{movie.title}}</h2>
             <div id="stars">
-                    <span id="star1" class="emptyStar">&#9728;</span>
-                    <span id="star2" class="emptyStar">&#9728;</span>
-                    <span id="star3" class="emptyStar">&#9728;</span>
-                    <span id="star4" class="emptyStar">&#9728;</span>
-                    <span id="star5" class="emptyStar">&#9728;</span>
+                    <span ng-class="{filledStar: filled[1]}"  ng-click="handleClick(1)" >&#9728;</span>
+                    <span ng-class="{filledStar: filled[2]}"  ng-click="handleClick(2)" >&#9728;</span>
+                    <span ng-class="{filledStar: filled[3]}"  ng-click="handleClick(3)" >&#9728;</span>
+                    <span ng-class="{filledStar: filled[4]}"  ng-click="handleClick(4)" >&#9728;</span>
+                    <span ng-class="{filledStar: filled[5]}"  ng-click="handleClick(5)" >&#9728;</span>
             </div>
-            <p id="text"></p>
-            <ul id="actorList"></ul>
+            <p id="text">{{movie.text}}</p>
+            <ul id="actorList">
+                <li ng-repeat="item in movie.actors">{{item}}</li>
+            </ul>
         </div>
 
-    </div>
+    </div>s
 
     <script src="bundle.js"></script>    
     
