@@ -10,7 +10,7 @@
     "copyindex": "cp template.html distribution/index.html",
     "build": "npm run bundle && npm run styles && npm run copyindex",
     "lintless": "stylelint styles.less",
-    "lintjs": "eslint ."    
+    "lintts": "tslint -c tslint.json '*.ts'"    
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,11 @@
   },
   "homepage": "https://github.com/Hasseoa/MovieReviewExercise#readme",
   "devDependencies": {
-    "eslint": "^4.12.0",
     "less": "^2.7.3",
     "stylelint": "^8.3.1",
+    "ts-loader": "^3.1.1",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2",
     "webpack": "^3.8.1"
   },
   "dependencies": {
