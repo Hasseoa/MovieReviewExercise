@@ -1,4 +1,6 @@
-export let movieData = {
+import { Review } from "./interfaces";
+
+export const movieData: Review = {
     imageSrc: "https://encrypted-tbn0.gstatic.com" +
     "/images?q=tbn:ANd9GcRam_UTtsl8bwBxxKNeBtG-i5wyW2H0ozBndpMlcO8LSIYNTQ3J7w",
     title: "The Hobbit (1977)",

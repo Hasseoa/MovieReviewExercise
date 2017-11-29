@@ -1,12 +1,25 @@
-// var movieData = require("./data");
-// var $ = require("jquery");
+// angular stuff
+
+import * as angular from "angular";
+
+let app = angular.module("reviewApp", []);
+
+app.controller("reviewController", ($scope) => {
+  $scope.message = "Hello from Angular!";
+  $scope.greeting = "Hello world!";
+});
+
+// imports
 
 import * as $ from "jquery";
 import {movieData} from "./data";
+import {Review} from "./interfaces";
 
 // handle data and stuff
 
-function renderMovie(movie) {
+renderMovie(movieData);
+
+function renderMovie(movie: Review) {
     $("#poster").attr("src", movie.imageSrc);
     $("#title").text(movie.title);
     $("#text").text(movie.text);
@@ -20,8 +33,6 @@ function renderMovie(movie) {
     }
     $("#actorList").html(actorList);
 }
-
-renderMovie(movieData);
 
 // Stars and stuff.....
 
